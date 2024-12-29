@@ -1,0 +1,72 @@
+{
+	"info": {
+		"_postman_id": "80c58ce0-5eca-4f19-8cf3-2d59ed2928a8",
+		"name": "Texter_Postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2516298"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/api/content",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "My Name is Abhijeet Upadhyay.",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/content",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"content"
+					]
+				},
+				"description": "Generated from cURL: curl -X POST http://localhost:8080/api/content -H \"Content-Type: application/json\" -d \"Your text content here\"\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/content",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/content/38876fa7-149e-48e5-82e8-9f8f2d50ce45",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"content",
+						"38876fa7-149e-48e5-82e8-9f8f2d50ce45"
+					]
+				},
+				"description": "Generated from cURL: curl -X POST http://localhost:8080/api/content -H \"Content-Type: application/json\" -d \"Your text content here\"\r\n"
+			},
+			"response": []
+		}
+	]
+}
